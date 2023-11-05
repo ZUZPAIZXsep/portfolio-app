@@ -1,0 +1,132 @@
+/* styles.css */
+
+/* Navbar styles */
+.navbar {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 28px;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Main container styles */
+.container {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Header styles */
+h1 {
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+/* Button styles */
+.btn {
+  margin: 10px;
+}
+
+/* Image styles */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Home page specific styles */
+.home {
+  background-color: #f8f9fa;
+  padding: 40px;
+}
+
+/* Introduction page specific styles */
+.introduction {
+  background-color: #f8f9fa;
+  padding: 40px;
+}
+
+/* About page specific styles */
+.about {
+  background-color: #f8f9fa;
+  padding: 40px;
+}
+
+/* Activities page specific styles */
+.activities {
+  background-color: #f8f9fa;
+  padding: 40px;
+}
+
+/* styles.css */
+
+/* About page specific styles */
+.about {
+background-color: #AFEEEE;
+padding: 40px;
+text-align: left;
+}
+
+.aboutme {
+  background-color: #17a2a2;
+  padding: 10px;
+  text-align: left;
+}
+.addressme {
+  background-color: #2180b7;
+  padding: 10px;
+  text-align: left;
+}
+.contactme {
+  background-color: #9421b7;
+  padding: 10px;
+  text-align: left;
+}
+.edume {
+  background-color: #1e7c21;
+  padding: 10px;
+  text-align: left;
+}
+
+
+.about h1 {
+font-size: 36px;
+margin: 20px 0;
+}
+
+.about p {
+color: #fff;
+font-size: 18px;
+}
+
+.about img {
+max-width: 100%;
+height: auto;
+}
+
+.about .btn {
+margin: 10px;
+}
+
+/* Rounded border styles */
+.rounded {
+  border-radius: 20px; /* ปรับค่าตามความต้องการ */
+}
+
+/* Background image styles */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8; /* คุณสามารถปรับค่า opacity ตามความต้องการ */
+}
+
