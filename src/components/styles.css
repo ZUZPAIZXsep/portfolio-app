@@ -15,6 +15,7 @@
   font-size: 16px;
 }
 
+
 /* Main container styles */
 .container {
   text-align: center;
@@ -67,32 +68,30 @@ img {
 
 /* About page specific styles */
 .about {
-background-color: #AFEEEE;
-padding: 40px;
+background-color: #9ea3a7;
+padding: 5px;
 text-align: left;
 }
-
 .aboutme {
-  background-color: #17a2a2;
+  background-color: #333333;
   padding: 10px;
   text-align: left;
 }
 .addressme {
-  background-color: #2180b7;
+  background-color: #333333;
   padding: 10px;
   text-align: left;
 }
 .contactme {
-  background-color: #9421b7;
+  background-color: #666666;
   padding: 10px;
   text-align: left;
 }
 .edume {
-  background-color: #1e7c21;
+  background-color: #666666;
   padding: 10px;
   text-align: left;
 }
-
 
 .about h1 {
 font-size: 36px;
@@ -124,9 +123,17 @@ margin: 10px;
   top: 0;
   left: 0;
   z-index: -1;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.8; /* คุณสามารถปรับค่า opacity ตามความต้องการ */
+  width: auto;
+  height: 130%;
+  opacity: 0.8; /* ปรับค่า opacity ตามความต้องการ */
 }
+
+img.img-small {
+  width: 500px; /* ปรับค่าความกว้างตามความต้องการ */
+  height: auto; /* ใช้ 'auto' เพื่อคงความสัดส่วน */
+}
+img.img-with-border {
+  border: 4px solid white; /* ปรับค่าขอบและสีตามความต้องการ */
+}
+
 

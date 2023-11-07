@@ -1,9 +1,0 @@
-/* Common page background */
-.page-background {
-    background-image: url('/background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    min-height: 100vh;
-  }

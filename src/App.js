@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        <img src="background.jpg" alt="รูปภาพพื้นหลัง" className="background-image" />
+        <img src="background.jpg" alt="imgbackground" className="background-image" />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />

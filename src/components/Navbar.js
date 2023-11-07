@@ -4,21 +4,21 @@ import './styles.css';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link to="/" className="navbar-brand">Portfolio</Link>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <Link to="/" className="navbar-brand" style={{fontSize:"22px"}}>PORTFOLIO</Link>
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link to="/home" className="nav-link">หน้าแรก</Link>
+            <Link to="/home" className="nav-link" style={{fontSize:"19px"}}>หน้าแรก</Link>
           </li>
           <li className="nav-item">
-            <Link to="/introduction" className="nav-link">คำนำ</Link>
+            <Link to="/introduction" className="nav-link" style={{fontSize:"19px"}}>คำนำ</Link>
           </li>
           <li className="nav-item">
-            <Link to="/about" className="nav-link">แนะนำตัว</Link>
+            <Link to="/about" className="nav-link" style={{fontSize:"19px"}}>แนะนำตัว</Link>
           </li>
           <li className="nav-item">
-            <Link to="/activities" className="nav-link">Activities</Link>
+            <Link to="/activities" className="nav-link" style={{fontSize:"19px"}}>Activities</Link>
           </li>
         </ul>
       </div>
