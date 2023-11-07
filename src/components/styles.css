@@ -123,15 +123,14 @@ margin: 10px;
 }
 
 @font-face {
-  font-family: 'Kanit-Light';
-  src: url('./fonts/Kanit-Light.ttf') format('truetype');
+  font-family: 'Kanit-Regular';
+  src: url('./fonts/Kanit-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 .thai-text {
-  font-family: 'Kanit-Light', sans-serif; 
+  font-family: 'Kanit-Regular', sans-serif; 
 }
-
 
 /* Background image styles */
 .background-image {
