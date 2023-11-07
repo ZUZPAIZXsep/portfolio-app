@@ -131,6 +131,13 @@ margin: 10px;
 .thai-text {
   font-family: 'Kanit-Regular', sans-serif; 
 }
+.centered-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 
 /* Background image styles */
 .background-image {

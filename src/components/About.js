@@ -13,27 +13,27 @@ function About() {
     <div className="container about rounded">
       <div className="row">
         <div className="col-md-6">
-          <h1>PROFILE</h1>
+          <h1 className='thai-text text-color'>PROFILE</h1>
           <p className='aboutme rounded'>
-            <h2><FaAddressCard /> ABOUT ME</h2>
-            <p>Name : Kantharakorn Tangkitjavisut</p>
-            <p>Nickname : Sprite</p>
-            <p>Birthday : 17 July 2002</p>
+            <h2 className='thai-text'><FaAddressCard /> ABOUT ME</h2>
+            <p className='thai-text'>Name : Kantharakorn Tangkitjavisut</p>
+            <p className='thai-text'>Nickname : Sprite</p>
+            <p className='thai-text'>Birthday : 17 July 2002</p>
           </p>
           <p className='contactme rounded'>
-            <h2><RiContactsBookLine /> Contact</h2>
-            <p><FiPhone /> 092-841-3531</p>
-            <p><AiOutlineMail /> kantharakorn.t@gmail.com</p>
-            <p><FaFacebook /> Kantharakorn Tangkitjavisut </p>
-            <p><FaInstagram /> zuzpaiz____</p>
+            <h2 className='thai-text'><RiContactsBookLine /> Contact</h2>
+            <p className='thai-text'><FiPhone /> 092-841-3531</p>
+            <p className='thai-text'><AiOutlineMail /> kantharakorn.t@gmail.com</p>
+            <p className='thai-text'><FaFacebook /> Kantharakorn Tangkitjavisut </p>
+            <p className='thai-text'><FaInstagram /> zuzpaiz____</p>
           </p>
           <p className='addressme rounded'>
-            <h2><FaHome /> Address</h2>
-            <p>92/389 Lumpini Ville Nakorn In - Riverview Nakornin Road , Taladkwan , Muang , Nonthaburi 11000</p>
+            <h2 className='thai-text'><FaHome /> Address</h2>
+            <p className='thai-text'>92/389 Lumpini Ville Nakorn In - Riverview Nakornin Road , Taladkwan , Muang , Nonthaburi 11000</p>
           </p>
           <p className='edume rounded'>
-            <h2><BsMortarboardFill /> Educational </h2>
-            <p><b>King Mongkut’s University of Technology North Bangkok</b> (2020-present) (GPAX 3.28) (College of Industrial Technology 
+            <h2 className='thai-text'><BsMortarboardFill /> Educational </h2>
+            <p><b >King Mongkut’s University of Technology North Bangkok</b> (2020-present) (GPAX 3.28) (College of Industrial Technology 
                     Department of Electronic Engineering Technology )</p>
             <p><b>Kanchanaburi Technical College</b> (2017-2019) (GPAX 3.29) (Certificate of Vocational Education Electronics)</p>
           </p>
