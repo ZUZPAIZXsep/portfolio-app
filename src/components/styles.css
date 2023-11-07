@@ -64,8 +64,6 @@ img {
   padding: 40px;
 }
 
-/* styles.css */
-
 /* About page specific styles */
 .about {
 background-color: #9ea3a7;
@@ -116,6 +114,24 @@ margin: 10px;
 .rounded {
   border-radius: 20px; /* ปรับค่าตามความต้องการ */
 }
+.text-color {
+  color: #444444; /* เปลี่ยนสีตัวอักษรเป็นสีแดง (#FF0000) หรือสีที่คุณต้องการ */
+}
+.text-color-background {
+  background-color: white; /* เปลี่ยนสีพื้นหลังเป็นสีขาว */
+  padding: 10px; /* ปรับค่าการเว้นระหว่างข้อความตามความต้องการ */
+}
+
+@font-face {
+  font-family: 'Kanit-Light';
+  src: url('./fonts/Kanit-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.thai-text {
+  font-family: 'Kanit-Light', sans-serif; 
+}
+
 
 /* Background image styles */
 .background-image {
