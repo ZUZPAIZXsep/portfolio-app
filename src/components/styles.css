@@ -141,17 +141,22 @@ margin: 10px;
 
 /* Background image styles */
 .background-image {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
-  width: auto;
-  height: 130%;
-  opacity: 0.8; /* ปรับค่า opacity ตามความต้องการ */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.9; /* คุณสามารถปรับค่า opacity ตามความต้องการ */
 }
 
 img.img-small {
   width: 500px; /* ปรับค่าความกว้างตามความต้องการ */
+  height: auto; /* ใช้ 'auto' เพื่อคงความสัดส่วน */
+}
+img.img-med {
+  width: 1300px; /* ปรับค่าความกว้างตามความต้องการ */
   height: auto; /* ใช้ 'auto' เพื่อคงความสัดส่วน */
 }
 img.img-with-border {
