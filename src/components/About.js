@@ -1,9 +1,11 @@
 import React from 'react';
+import ResumeButton from './ResumeButton';
+import SkillsList from './Skill';
 import { Link } from 'react-router-dom';
 import { FaAddressCard,FaHome,FaFacebook,FaInstagram} from 'react-icons/fa';
 import { RiContactsBookLine } from "react-icons/ri";
 import { FiPhone } from "react-icons/fi";
-import { BiSolidLeftArrow,BiSolidRightArrow } from "react-icons/bi";
+import { BiSolidLeftArrow,BiSolidRightArrow,BiCodeAlt } from "react-icons/bi";
 import { BsMortarboardFill } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import './styles.css';
@@ -37,6 +39,12 @@ function About() {
                     Department of Electronic Engineering Technology )</p>
             <p><b>Kanchanaburi Technical College</b> (2017-2019) (GPAX 3.29) (Certificate of Vocational Education Electronics)</p>
           </p>
+          <p className='addressme rounded'>
+            <h2 className='thai-text'><BiCodeAlt /> SKILLS</h2>
+            <SkillsList/>
+          </p>
+          <ResumeButton />
+          <br/>
           <Link to="/home" className="btn btn-secondary mx-2"><FaHome /> หน้าหลัก</Link>
           <Link to="/introduction" className="btn btn-primary mx-2 "><BiSolidLeftArrow /> หน้าก่อนหน้า</Link>
           <Link to="/activities" className="btn btn-primary mx-2"><BiSolidRightArrow /> ไปหน้าถัดไป</Link>
@@ -55,3 +63,4 @@ function About() {
 }
 
 export default About;
+
