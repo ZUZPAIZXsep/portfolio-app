@@ -1,6 +1,6 @@
 # Link to Portfolio
 
-### [portfolio-app-zuzpaizx.vercel.app](portfolio-app-zuzpaizx.vercel.app)
+### [portfolio-app-zuzpaizx.vercel.app](https://portfolio-app-zuzpaizx.vercel.app/)
 
 ### กันทรากร ตั้งกิจจาวิสุทธิ์ 6303051613092
 
